@@ -68,7 +68,7 @@ let localArray=[];
 words.forEach(element=>{
   localArray.push(callback(element));
 })
-localArray;
+return localArray;
 };
 
 /* ------------------------------------------------------------------------------------------------
